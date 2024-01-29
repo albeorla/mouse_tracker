@@ -1,0 +1,9 @@
+ #!/usr/bin/env bash
+
+ virtualenv venv
+ touch main.py
+ git init
+ pipreqs .
+ touch .gitignore 
+ pip install -r requirements.txt
+ source venv/bin/activate
